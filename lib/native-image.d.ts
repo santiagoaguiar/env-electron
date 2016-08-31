@@ -25,11 +25,11 @@ declare namespace Electron {
 		/**
 		 * @returns Buffer Contains the image's PNG encoded data.
 		 */
-		toPng(): Buffer;
+		toPNG(): Buffer;
 		/**
 		 * @returns Buffer Contains the image's JPEG encoded data.
 		 */
-		toJpeg(quality: number): Buffer;
+		toJPEG(quality: number): Buffer;
 		/**
 		 * @returns string The data URL of the image.
 		 */
